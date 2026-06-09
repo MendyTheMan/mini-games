@@ -6,11 +6,13 @@ import './App.css'
 function App() {
 
   return (
-    <Routes>
-      <Route index element={<TicTacToe />} />
-      <Route path="connect4" element={<Connect4 />} />
-    </Routes>
+    <TicTacToe />
   )
 }
 
 export default App
+
+// {/* <Routes>
+//       <Route index element={<TicTacToe />} />
+//       <Route path="connect4" element={<Connect4 />} />
+//     </Routes> */}
